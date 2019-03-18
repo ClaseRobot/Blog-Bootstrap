@@ -1,0 +1,16 @@
+{
+  "name": "blog-bootstrap-tutorial",
+  "version": "1.0.0",
+  "description": "a simple blog layout\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blog",
+    "simple",
+    "layout"
+  ],
+  "author": "Gustavo Gonzalez <gonzalezgustavo060@gmail.com> (https://twitter.com/gusgonzalez060)",
+  "license": "MIT"
+}

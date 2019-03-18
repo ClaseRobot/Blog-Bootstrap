@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="Description" content="Layout hecho con Bootstrap como parte de una práctica">
+    <meta name="Keywords" content="HTML,CSS,JavaScript">
+    <meta name="Author" content="Gustavo Gonzalez">
+    <meta name="Derechos" content="Bluuweb">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <title>Blog práctica con Bootstrap</title>
+    <style>
+        .slider {
+            background: url("images/bg-3.png");
+            background-size: cover;
+            background-position: center;
+            height: 450px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Menu -->
+    <div class="container-fluid bg-dark fixed-top text-center">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark container">
+            <a class="navbar-brand" href="#">
+                <img src="images/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> Bootstrap
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link active" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-item nav-link" href="#">Features</a>
+                    <a class="nav-item nav-link" href="#">Pricing</a>
+                    <a class="nav-item nav-link mr-lg-4" href="#">Disabled</a>
+                    <div><a class="btn btn-danger" href="">Contacto</a></div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Fin Menu -->
+
+    <!-- Slider -->
+    <div class="container-fluid slider d-flex flex-column justify-content-center item align-items-center">
+        <div class="text-center text-white">
+            <h3 class="d-none d-md-block">Lorem ipsum dolor sit amet.</h3>
+            <h1 class="display">Lorem ipsum dolor.</h1>
+            <p class="lead d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <form action="" class="form-inline d-flex flex-column flex-sm-row">
+            <div class="form-group mr-4">
+                <input type="text" placeholder="Lorem ipsum dolor." class="form-control">
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn btn-danger" value="Enviar">
+            </div>
+        </form>
+    </div>
+    <!-- Fin Slider -->
+
+    <!-- main -->
+    <div class="container mb-5">
+        <h3>Blog</h3>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur.</p>
+        <hr>
+        <div class="row">
+            <!-- Articulos -->
+            <div class="col-12 col-md-9">
+                <!-- Primer articulo -->
+                <div class="row mb-5">
+                    <div class="col-3">
+                        <img class="img-fluid" src="images/cards1.png" alt="">
+                        <p class="lead text-center">15/12/2018</p>
+                    </div>
+                    <div class="col-9">
+                        <a href=""><h3>Lorem ipsum dolor sit amet.</h3></a>
+                        <a href="#" class="badge badge-primary">Primary</a>
+                        <a href="#" class="badge badge-secondary">Secondary</a>
+                        <a href="#" class="badge badge-success">Success</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam vel eos minus expedita, earum nesciunt consequuntur tempore
+                        impedit, doloribus veniam quos perspiciatis animi. Quae voluptate animi dicta perferendis iste modi velit, et exercitationem
+                        quas laboriosam labore dolorum ipsam corrupti facere. Alias repellat saepe quidem inventore magni, quasi incidunt tempora
+                        porro.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, fuga.</p>
+                        <a href="" class="btn btn-warning btn-sm">Leer más..</a>
+                    </div>
+                </div>
+                <!-- Fin Primer articulo -->
+                <!-- Segundo articulo -->
+                <div class="row mb-5">
+                    <div class="col-3">
+                        <img class="img-fluid" src="images/cards1.png" alt="">
+                        <p class="lead text-center">15/12/2018</p>
+                    </div>
+                    <div class="col-9">
+                        <a href="">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                        </a>
+                        <a href="#" class="badge badge-primary">Primary</a>
+                        <a href="#" class="badge badge-secondary">Secondary</a>
+                        <a href="#" class="badge badge-success">Success</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam vel eos minus expedita, earum nesciunt consequuntur
+                            tempore impedit, doloribus veniam quos perspiciatis animi. Quae voluptate animi dicta perferendis iste modi velit,
+                            et exercitationem quas laboriosam labore dolorum ipsam corrupti facere. Alias repellat saepe quidem inventore
+                            magni, quasi incidunt tempora porro.
+                        </p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, fuga.</p>
+                        <a href="" class="btn btn-warning btn-sm">Leer más..</a>
+                    </div>
+                </div>
+                <!-- Fin Segundo articulo -->
+                <!-- Tercer articulo -->
+                <div class="row mb-5">
+                    <div class="col-3">
+                        <img class="img-fluid" src="images/cards1.png" alt="">
+                        <p class="lead text-center">15/12/2018</p>
+                    </div>
+                    <div class="col-9">
+                        <a href="">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                        </a>
+                        <a href="#" class="badge badge-primary">Primary</a>
+                        <a href="#" class="badge badge-secondary">Secondary</a>
+                        <a href="#" class="badge badge-success">Success</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam vel eos minus expedita, earum nesciunt consequuntur
+                            tempore impedit, doloribus veniam quos perspiciatis animi. Quae voluptate animi dicta perferendis iste modi velit,
+                            et exercitationem quas laboriosam labore dolorum ipsam corrupti facere. Alias repellat saepe quidem inventore
+                            magni, quasi incidunt tempora porro.
+                        </p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, fuga.</p>
+                        <a href="" class="btn btn-warning btn-sm">Leer más..</a>
+                    </div>
+                </div>
+                <!-- Fin Tercer articulo -->
+                <!-- Cuarto articulo -->
+                <div class="row mb-5">
+                    <div class="col-3">
+                        <img class="img-fluid" src="images/cards1.png" alt="">
+                        <p class="lead text-center">15/12/2018</p>
+                    </div>
+                    <div class="col-9">
+                        <a href="">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                        </a>
+                        <a href="#" class="badge badge-primary">Primary</a>
+                        <a href="#" class="badge badge-secondary">Secondary</a>
+                        <a href="#" class="badge badge-success">Success</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam vel eos minus expedita, earum nesciunt consequuntur
+                            tempore impedit, doloribus veniam quos perspiciatis animi. Quae voluptate animi dicta perferendis iste modi velit,
+                            et exercitationem quas laboriosam labore dolorum ipsam corrupti facere. Alias repellat saepe quidem inventore
+                            magni, quasi incidunt tempora porro.
+                        </p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, fuga.</p>
+                        <a href="" class="btn btn-warning btn-sm">Leer más..</a>
+                    </div>
+                </div>
+                <!-- Fin Cuarto articulo -->
+                <div class="btn-toolbar d-flex justify-content-center mb-3" role="toolbar" aria-label="Toolbar with button groups">
+                    <div class="btn-group mr-2" role="group" aria-label="First group">
+                        <button type="button" class="btn btn-secondary active">Inicio</button>
+                        <button type="button" class="btn btn-secondary">1</button>
+                        <button type="button" class="btn btn-secondary">2</button>
+                        <button type="button" class="btn btn-secondary">3</button>
+                        <button type="button" class="btn btn-secondary">4</button>
+                        <button type="button" class="btn btn-secondary active">Final</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin articulos -->
+            <!-- Aside -->
+            <div class="col-12 col-md-3">
+                <!-- Cards -->
+                <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Primary card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Secondary card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Success card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Danger card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Warning card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Info card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card bg-light mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Light card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Dark card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <!-- Fin cards -->
+            </div>
+            <!-- Fin aside -->
+        </div>
+    </div>
+    <!-- Fin main -->
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-dark text-white py-3 text-center">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, architecto!</p>
+    </footer>
+    <!-- Fin footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
